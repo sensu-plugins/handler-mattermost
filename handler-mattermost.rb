@@ -1,4 +1,9 @@
 #!/opt/sensu/embedded/bin/ruby
+
+# Author: uptic B.V.
+# Date: 2017-10-28
+# Website: https://uptic.nl
+
 require 'sensu-handler'
 require 'json'
 require 'uri'
