@@ -38,9 +38,5 @@ request.body = body.to_json
 
 response = https.request(request)
 
-
-
-
-
   end
 end
