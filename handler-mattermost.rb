@@ -29,7 +29,7 @@ when 0
   exiticon = ":white_check_mark:"
 when 1
   exitcode = "WARNING"
-  exiticon = ":WARNING:"
+  exiticon = ":warning:"
 when 2
   exitcode = "CRITICAL"
   exiticon = ":sos:"
