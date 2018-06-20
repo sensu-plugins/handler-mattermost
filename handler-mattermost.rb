@@ -43,7 +43,7 @@ body = {text: "
   | Component     | #{@event["client"]["name"]}  |
   |--------------:|:-----------------------------|
   | Check         | #{@event["check"]["name"]}   |
-  | Output        | #{@event["check"]["output"]} |
+  | Output        | #{@event["check"]["output"].gsub("|"," ").gsub("\n"," ")} |
   | Occurrences   | #{@event["occurrences"]}     |
   | Status        | #{exiticon} #{exitcode}      |
 
